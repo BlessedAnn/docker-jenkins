@@ -7,7 +7,7 @@ pipeline{
 	stages{
 		stage('GitClone'){
 			steps{
-				git "https://github.com/JoyOrji1/visa-app.git"
+				git "https://github.com/BlessedAnn/docker-jenkins.git"
 			}
 		}
 		stage('Test&Build'){
